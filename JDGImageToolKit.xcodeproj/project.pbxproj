@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E3B0C91E1CEEB900CBBBDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E3B0C81E1CEEB900CBBBDA /* AppDelegate.swift */; };
+		71E3B0CD1E1CEEB900CBBBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E3B0CC1E1CEEB900CBBBDA /* Assets.xcassets */; };
+		71E3B0D01E1CEEB900CBBBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E3B0CE1E1CEEB900CBBBDA /* Main.storyboard */; };
+		71E3B0DB1E1CF07C00CBBBDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E3B0D91E1CF07C00CBBBDA /* MainViewController.swift */; };
+		71E3B0DE1E1CF37F00CBBBDA /* JDGDraginImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E3B0DD1E1CF37F00CBBBDA /* JDGDraginImageView.swift */; };
+		71E3B0E01E1CF95B00CBBBDA /* JDGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E3B0DF1E1CF95B00CBBBDA /* JDGImageExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71E3B0C51E1CEEB900CBBBDA /* JDGImageToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDGImageToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E3B0C81E1CEEB900CBBBDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E3B0CC1E1CEEB900CBBBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71E3B0CF1E1CEEB900CBBBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E3B0D11E1CEEB900CBBBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E3B0D91E1CF07C00CBBBDA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		71E3B0DD1E1CF37F00CBBBDA /* JDGDraginImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDGDraginImageView.swift; sourceTree = "<group>"; };
+		71E3B0DF1E1CF95B00CBBBDA /* JDGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDGImageExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E3B0C21E1CEEB900CBBBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E3B0BC1E1CEEB900CBBBDA = {
+			isa = PBXGroup;
+			children = (
+				71E3B0C71E1CEEB900CBBBDA /* JDGImageToolKit */,
+				71E3B0C61E1CEEB900CBBBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71E3B0C61E1CEEB900CBBBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E3B0C51E1CEEB900CBBBDA /* JDGImageToolKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E3B0C71E1CEEB900CBBBDA /* JDGImageToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				71E3B0C81E1CEEB900CBBBDA /* AppDelegate.swift */,
+				71E3B0DD1E1CF37F00CBBBDA /* JDGDraginImageView.swift */,
+				71E3B0DF1E1CF95B00CBBBDA /* JDGImageExtension.swift */,
+				71E3B0D91E1CF07C00CBBBDA /* MainViewController.swift */,
+				71E3B0CC1E1CEEB900CBBBDA /* Assets.xcassets */,
+				71E3B0CE1E1CEEB900CBBBDA /* Main.storyboard */,
+				71E3B0D11E1CEEB900CBBBDA /* Info.plist */,
+			);
+			path = JDGImageToolKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E3B0C41E1CEEB900CBBBDA /* JDGImageToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E3B0D41E1CEEB900CBBBDA /* Build configuration list for PBXNativeTarget "JDGImageToolKit" */;
+			buildPhases = (
+				71E3B0C11E1CEEB900CBBBDA /* Sources */,
+				71E3B0C21E1CEEB900CBBBDA /* Frameworks */,
+				71E3B0C31E1CEEB900CBBBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDGImageToolKit;
+			productName = JDGImageToolKit;
+			productReference = 71E3B0C51E1CEEB900CBBBDA /* JDGImageToolKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E3B0BD1E1CEEB900CBBBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JDG;
+				TargetAttributes = {
+					71E3B0C41E1CEEB900CBBBDA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = KUQET4384Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71E3B0C01E1CEEB900CBBBDA /* Build configuration list for PBXProject "JDGImageToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E3B0BC1E1CEEB900CBBBDA;
+			productRefGroup = 71E3B0C61E1CEEB900CBBBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E3B0C41E1CEEB900CBBBDA /* JDGImageToolKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E3B0C31E1CEEB900CBBBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E3B0CD1E1CEEB900CBBBDA /* Assets.xcassets in Resources */,
+				71E3B0D01E1CEEB900CBBBDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E3B0C11E1CEEB900CBBBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E3B0DB1E1CF07C00CBBBDA /* MainViewController.swift in Sources */,
+				71E3B0DE1E1CF37F00CBBBDA /* JDGDraginImageView.swift in Sources */,
+				71E3B0C91E1CEEB900CBBBDA /* AppDelegate.swift in Sources */,
+				71E3B0E01E1CF95B00CBBBDA /* JDGImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71E3B0CE1E1CEEB900CBBBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E3B0CF1E1CEEB900CBBBDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E3B0D21E1CEEB900CBBBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71E3B0D31E1CEEB900CBBBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		71E3B0D51E1CEEB900CBBBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KUQET4384Y;
+				INFOPLIST_FILE = JDGImageToolKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDG.JDGImageToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71E3B0D61E1CEEB900CBBBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KUQET4384Y;
+				INFOPLIST_FILE = JDGImageToolKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDG.JDGImageToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E3B0C01E1CEEB900CBBBDA /* Build configuration list for PBXProject "JDGImageToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E3B0D21E1CEEB900CBBBDA /* Debug */,
+				71E3B0D31E1CEEB900CBBBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E3B0D41E1CEEB900CBBBDA /* Build configuration list for PBXNativeTarget "JDGImageToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E3B0D51E1CEEB900CBBBDA /* Debug */,
+				71E3B0D61E1CEEB900CBBBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E3B0BD1E1CEEB900CBBBDA /* Project object */;
+}

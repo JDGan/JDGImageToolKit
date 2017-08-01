@@ -1,1 +1,0 @@
-/Users/jdg/Desktop/Study/JDGImageToolKit/Build/Intermediates/ArchiveIntermediates/JDGImageToolKit/InstallationBuildProductsLocation/Applications/JDGImageToolKit.app

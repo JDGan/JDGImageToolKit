@@ -1,8 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "9cfa93f1e2ea0804fbc1a31dd01dd5c7"
-build_time: [536901098, 790013000]
-inputs:
-  "/Users/jdg/Desktop/Study/JDGImageToolKit/JDGImageToolKit/MainViewController.swift": [9223372036854775807, 0]
-  "/Users/jdg/Desktop/Study/JDGImageToolKit/JDGImageToolKit/JDGDraginImageView.swift": [9223372036854775807, 0]
-  "/Users/jdg/Desktop/Study/JDGImageToolKit/JDGImageToolKit/AppDelegate.swift": [9223372036854775807, 0]
-  "/Users/jdg/Desktop/Study/JDGImageToolKit/JDGImageToolKit/JDGImageExtension.swift": [9223372036854775807, 0]

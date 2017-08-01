@@ -9,10 +9,13 @@
 import Cocoa
 
 class MainViewController: NSViewController
-, JDGDraginImageViewDelegate {
+, JDGDraginImageViewDelegate
+, NSTableViewDelegate
+, NSTableViewDataSource {
 
     @IBOutlet weak var imageView: JDGDraginImageView!
     
+	@IBOutlet weak var tableView: NSTableView!
     private var iconImportPath : String = ""
     
     override func viewDidLoad() {
@@ -20,7 +23,20 @@ class MainViewController: NSViewController
         // Do view setup here.
         imageView.delegate = self
     }
-    
+	
+// NSTableViewDataSource
+	func numberOfRows(in tableView: NSTableView) -> Int {
+		return pngFileUrls.count
+	}
+	
+	func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+		let cellView = tableView.make(withIdentifier: "FilePathCell", owner: self)
+		if let v = cellView as? NSTableCellView {
+			v.textField?.stringValue = pngFileUrls[row].absoluteString
+		}
+		return cellView
+	}
+	
     func draginImageView(_ view: JDGDraginImageView, didAcceptFileNames names: [String]) {
         if names.count == 1 , let n = names.first {
             iconImportPath = n
@@ -63,6 +79,7 @@ class MainViewController: NSViewController
         
         if oPanel.runModal() == NSModalResponseOK {
             pngFileUrls.append(contentsOf: oPanel.urls)
+			tableView.reloadData()
         }
     }
     
